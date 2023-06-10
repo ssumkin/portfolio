@@ -1,0 +1,139 @@
+p {
+    font-size: 18px;
+}
+
+#jjangguTem {
+    background: url(../images/jjanggu/jjangguTem.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+ 
+aside {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: 100%;  
+    background-color: white;
+    color: black;
+}
+
+aside #profileSNS a {
+    color: black; 
+}
+
+aside > #profile #profileImg {
+    position: relative;
+    z-index: 1;
+    width: 100%; 
+    height: 257px;
+    border-radius: 5px;
+    background-image: url(../images/jjanggu/jjangguProfile.png) !important;
+    background-size: cover;
+}
+
+#profileSNS {
+    position: relative;
+    z-index: 1;
+}
+
+aside #profileSNS > h1 {
+    font-size: 35px;
+    text-align: right;
+}
+
+#profileSNS span {
+    font-weight: 600;
+}
+
+aside ul {
+    text-align: right;
+    font-size: 18px;
+}
+
+aside #home {
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+    font-weight: 600;
+    color: #551a8b;
+    z-index: 1;
+}
+
+#profileList {
+    position: relative;
+    z-index: 1;
+}
+
+#sectionWrap {
+    position: relative;
+    z-index: 1; 
+}
+
+section #spec > div {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+section #spec p {
+    margin-left: 0px;
+}
+
+#video-box {
+    display: inline-block;
+    width: 37%;
+    margin-top:10px;
+    margin-left: 20px;
+}
+
+#video-box #controller {
+    display: none;
+}
+
+#video-box video {
+    width: 100%;
+}
+
+.interest-box:nth-child(1) ul {
+    list-style-image: none;
+     
+} 
+ 
+.interest-box:nth-child(2) ul {
+    list-style-image: none; 
+}  
+
+#interest-box-wrap > div:nth-child(1) {
+    width: 320px;
+}
+ 
+
+#interest-box-wrap ul {
+    font-size: 17px;
+}
+
+.interest-box ul { 
+    line-height: 20px;
+    list-style: none;
+}
+ 
+
+.interest-box ul > li { 
+    margin-left: 0px;
+}
+
+#interest > h2 {
+    margin-bottom: 10px;
+}
+
+#interest-box-wrap > div:nth-child(2) {
+    margin-top: -30px;
+}
+
+#interest-box-wrap img {
+    width: 180px;
+}
